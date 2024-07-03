@@ -15,7 +15,7 @@ import EnterpriseNetworkSolutions from './Pages/Solutions/Menu_Solutions/Enterpr
 import TransportationNetworkSolutions from './Pages/Solutions/Menu_Solutions/Transportation_Network_Solutions';
 import BroadcastandCATVNetworkSolutions from './Pages/Solutions/Menu_Solutions/BroadcastandCATVNetworkSolutions';
 import TelecomandFTTxSolutions from './Pages/Solutions/Menu_Solutions/TelecomandFTTxSolutions';
-import Privacy_Policy from './Pages/Privacy_Policy';
+import PrivacyPolicy from './Pages/PrivacyPolicy';
 import './css/style.css';
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/news" element={<News />} />
-        <Route path="/Privacy_Policy" element={<Privacy_Policy />} />
+        <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
         <Route path="/solutions" element={<Solutions />} >
         <Route path=":solutionsId" element={<SolutionsDetails />} />
         <Route path="fiber_optic" element={<Fiberoptic />} />
@@ -49,13 +49,8 @@ function App() {
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb justify-content-center justify-content-lg-start mb-0">
             <li className="breadcrumb-item">
-              <a className="text-white" href="#">
+              <a className="text-white" href="/">
                 Home
-              </a>
-            </li>
-            <li className="breadcrumb-item">
-              <a className="text-white" href="#">
-                Pages
               </a>
             </li>
             <li

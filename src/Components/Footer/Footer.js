@@ -42,7 +42,7 @@ function Footer() {
         <a className="btn btn-link" href="/contact">
           Contact Us
         </a>
-        <a className="btn btn-link" href="/Privacy_Policy">
+        <a className="btn btn-link" href="/PrivacyPolicy">
           Privacy Policy
         </a>
 
