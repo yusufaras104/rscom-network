@@ -46,6 +46,7 @@ const EnterpriseNetworkSolutions = () => {
                 <img
                   className="img-fluid"
                   src="img/futuristic-computer-network-connects-global-industry-modern-warehouse-generated-by-artificial-intelligence.jpg"
+                  alt=""
                 />
               </div>
               <div className="box green" />

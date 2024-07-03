@@ -16,7 +16,6 @@ import TransportationNetworkSolutions from './Pages/Solutions/Menu_Solutions/Tra
 import BroadcastandCATVNetworkSolutions from './Pages/Solutions/Menu_Solutions/BroadcastandCATVNetworkSolutions';
 import TelecomandFTTxSolutions from './Pages/Solutions/Menu_Solutions/TelecomandFTTxSolutions';
 import Privacy_Policy from './Pages/Privacy_Policy';
-import p404page from './Pages/404page';
 import './css/style.css';
 
 function App() {

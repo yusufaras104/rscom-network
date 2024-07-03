@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import "./Navbar.css";
-import { Link, useMatch, useResolvedPath } from "react-router-dom"
+import { Link } from "react-router-dom"
 // Sticky Navbar
 window.addEventListener('scroll', function() {
   var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
   var navbar = document.querySelector('.sticky-top');
   var navLinks = document.querySelectorAll('.hide');
   var logo = document.querySelector('.Logo');
-  var navigation = document.querySelector('.navigation');
   
   if (scrollTop > 300) {
       navbar.classList.add('shadow-sm');
@@ -71,15 +70,7 @@ function Navbar() {
       setIsOpen(!isOpen);
   };
 
-  // Function to set display to block
-  const openDropdown = () => {
-      setIsOpen(true);
-  };
 
-  // Function to set display to none
-  const closeDropdown = () => {
-      setIsOpen(false);
-  };
 
   return (
     
@@ -88,7 +79,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg navbar-dark p-1">
         <Link to="/" className="navbar-brand">
             <h1 className="text-white">
-              <img src="img/rscomLogo.png" className="Logo" srcSet="" />
+              <img src="img/rscomLogo.png" className="Logo" srcSet="" alt="" />
             </h1>
           </Link>
           <button

@@ -27,6 +27,7 @@ function Home() {
           <img
             className="img-fluid"
             src="img/futuristic-computer-network-connects-global-industry-modern-warehouse-generated-by-artificial-intelligence.jpg"
+            alt=""
           />
         </div>
         <div className="box green" />
@@ -80,18 +81,6 @@ function Home() {
           <a className="btn btn-warningS rounded-pill px-4 me-3" href="/about ">
             Read More
           </a>
-          <a className="btn btn-outline-warningS btn-square me-3" href="">
-            <i className="fab fa-facebook-f" />
-          </a>
-          <a className="btn btn-outline-warningS btn-square me-3" href="">
-            <i className="fab fa-twitter" />
-          </a>
-          <a className="btn btn-outline-warningS btn-square me-3" href="">
-            <i className="fab fa-instagram" />
-          </a>
-          <a className="btn btn-outline-warningS btn-square" href="">
-            <i className="fab fa-linkedin-in" />
-          </a>
         </div>
       </div>
     </div>
@@ -109,7 +98,7 @@ function Home() {
         <h1 className="mb-4">
           Our Excellent Networking Solutions for Your Business
         </h1>
-        <a className="btn btn-warningS rounded-pill px-4" href="">
+        <a className="btn btn-warningS rounded-pill px-4" href="/solutions">
           Read More
         </a>
       </div>
@@ -258,38 +247,38 @@ function Home() {
         <div className="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
           <div className="case-item position-relative overflow-hidden rounded mb-2">
             <img className="img-fluid" src="img/2022-wimbledon-general-view.jpg" alt="" />
-            <a className="case-overlay text-decoration-none" href="">
+            <div className="case-overlay text-decoration-none">
               <small>London, United Kingdom</small>
               <h5 className="lh-base text-white mb-3">
               Wimbledon 
 Stadium, Junior Cort
               </h5>
-            </a>
+            </div>
           </div>
         </div>
         <div className="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
           <div className="case-item position-relative overflow-hidden rounded mb-2">
             <img className="img-fluid" src="img/13113502-6837c8dd-25ee-41b3-8265-ba9bd3b517cb (1).avif" alt="" />
-            <a className="case-overlay text-decoration-none" href="">
+            <div className="case-overlay text-decoration-none">
               <small>London, United Kingdom</small>
               <h5 className="lh-base text-white mb-3">
               Everyman 
 Cinema
               </h5>
-            </a>
+            </div>
           </div>
         </div>
         <div className="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
           <div className="case-item position-relative overflow-hidden rounded mb-2">
             <img className="img-fluid" src="img/defaultContentHeader.jpg" alt="" />
-            <a className="case-overlay text-decoration-none" href="">
+            <div className="case-overlay text-decoration-none">
               <small>London, United Kingdom</small>
               <h5 className="lh-base text-white mb-3">
               Wimbledon 
 Center 
 Stadium
               </h5>
-            </a>
+            </div>
           </div>
         </div>
       </div>

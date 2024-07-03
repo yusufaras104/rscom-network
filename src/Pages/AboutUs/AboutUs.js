@@ -24,6 +24,7 @@ function AboutUs() {
           <img
             className="img-fluid"
             src="img/futuristic-computer-network-connects-global-industry-modern-warehouse-generated-by-artificial-intelligence.jpg"
+            alt=""
           />
         </div>
         <div className="box green" />
@@ -87,18 +88,6 @@ better ROI.</p>
         <div className="d-flex align-items-center mt-4">
           <a className="btn btn-warningS rounded-pill px-4 me-3" href="Rscom_datasheet.pdf">
             Read PDF
-          </a>
-          <a className="btn btn-outline-warningS btn-square me-3" href="">
-            <i className="fab fa-facebook-f" />
-          </a>
-          <a className="btn btn-outline-warningS btn-square me-3" href="">
-            <i className="fab fa-twitter" />
-          </a>
-          <a className="btn btn-outline-warningS btn-square me-3" href="">
-            <i className="fab fa-instagram" />
-          </a>
-          <a className="btn btn-outline-warningS btn-square" href="">
-            <i className="fab fa-linkedin-in" />
           </a>
         </div>
       </div>

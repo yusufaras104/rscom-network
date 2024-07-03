@@ -62,38 +62,38 @@ function News() {
         <div className="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
           <div className="case-item position-relative overflow-hidden rounded mb-2">
             <img className="img-fluid" src="img/2022-wimbledon-general-view.jpg" alt="" />
-            <a className="case-overlay text-decoration-none" href="">
+            <dev className="case-overlay text-decoration-none">
               <small>London, United Kingdom</small>
               <h5 className="lh-base text-white mb-3">
               Wimbledon 
 Stadium, Junior Cort
               </h5>
-            </a>
+            </dev>
           </div>
         </div>
         <div className="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
           <div className="case-item position-relative overflow-hidden rounded mb-2">
             <img className="img-fluid" src="img/13113502-6837c8dd-25ee-41b3-8265-ba9bd3b517cb (1).avif" alt="" />
-            <a className="case-overlay text-decoration-none" href="">
+            <div className="case-overlay text-decoration-none">
               <small>London, United Kingdom</small>
               <h5 className="lh-base text-white mb-3">
               Everyman 
 Cinema
               </h5>
-            </a>
+            </div>
           </div>
         </div>
         <div className="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
           <div className="case-item position-relative overflow-hidden rounded mb-2">
             <img className="img-fluid" src="img/defaultContentHeader.jpg" alt="" />
-            <a className="case-overlay text-decoration-none" href="">
+            <div className="case-overlay text-decoration-none">
               <small>London, United Kingdom</small>
               <h5 className="lh-base text-white mb-3">
               Wimbledon 
 Center 
 Stadium
               </h5>
-            </a>
+            </div>
           </div>
         </div>
       </div>

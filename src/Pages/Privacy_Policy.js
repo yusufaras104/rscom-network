@@ -86,7 +86,6 @@ const Privacy_Policy = () => {
                     <bdt className="question">
                       <a
                         href="http://www.rscomnetwork.com"
-                        target="_blank"
                         data-custom-class="link"
                       >
                         http://www.rscomnetwork.com

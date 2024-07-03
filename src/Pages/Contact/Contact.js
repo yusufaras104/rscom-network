@@ -154,6 +154,7 @@ function Contact(){
          
         <iframe
   classname="img-fluid"
+  title="Google Maps embed of Kingston upon Thames"
   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.1517303870596!2d-0.30586405!3d51.400266699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760bb8142577c9%3A0xaf12e5453186ee93!2sKingston%20upon%20Thames%20KT1%202EP!5e0!3m2!1sen!2suk!4v1712838946964!5m2!1sen!2suk"
   width={600}
   height={450}
@@ -211,18 +212,18 @@ function Contact(){
           <a className="btn btn-warningS rounded-pill px-4 me-3" href="/about ">
             Read More
           </a>
-          <a className="btn btn-outline-warningS btn-square me-3" href="">
+          <div className="btn btn-outline-warningS btn-square me-3">
             <i className="fab fa-facebook-f" />
-          </a>
-          <a className="btn btn-outline-warningS btn-square me-3" href="">
+          </div>
+          <div className="btn btn-outline-warningS btn-square me-3">
             <i className="fab fa-twitter" />
-          </a>
-          <a className="btn btn-outline-warningS btn-square me-3" href="">
+          </div>
+          <div className="btn btn-outline-warningS btn-square me-3">
             <i className="fab fa-instagram" />
-          </a>
-          <a className="btn btn-outline-warningS btn-square" href="">
+          </div>
+          <div className="btn btn-outline-warningS btn-square">
             <i className="fab fa-linkedin-in" />
-          </a>
+          </div>
         </div>
       </div>
     </div>

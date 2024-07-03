@@ -32,21 +32,6 @@ function Footer() {
           info@rscomnetwork.com
         </p>
         <div className="d-flex pt-2">
-          <a className="btn btn-outline-light btn-social" href="">
-            <i className="fab fa-twitter" />
-          </a>
-          <a className="btn btn-outline-light btn-social" href="">
-            <i className="fab fa-facebook-f" />
-          </a>
-          <a className="btn btn-outline-light btn-social" href="">
-            <i className="fab fa-youtube" />
-          </a>
-          <a className="btn btn-outline-light btn-social" href="">
-            <i className="fab fa-instagram" />
-          </a>
-          <a className="btn btn-outline-light btn-social" href="">
-            <i className="fab fa-linkedin-in" />
-          </a>
         </div>
       </div>
       <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">

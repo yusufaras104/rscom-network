@@ -12,13 +12,8 @@ const p404page = () => {
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb justify-content-center justify-content-lg-start mb-0">
             <li className="breadcrumb-item">
-              <a className="text-white" href="#">
+              <a className="text-white" href="/">
                 Home
-              </a>
-            </li>
-            <li className="breadcrumb-item">
-              <a className="text-white" href="#">
-                Pages
               </a>
             </li>
             <li
