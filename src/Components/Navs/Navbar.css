@@ -1,0 +1,303 @@
+
+
+:root {
+    --primary: #000000;
+    --background: #00000000;
+    --secondary-background: #F2F2F2;
+    --gray: #847F90;
+    --gray-hover: #000000;
+    --primary-hover: #000000;
+    --link-gray: #ffffff;
+    --link-gray-hover: #F08233;
+    --gray: #000000;
+    --gray-border: #E6E6E6;
+    --white: #000000;
+    --navbar-height: 64px;
+}
+
+.menu__wrapper {
+    float: right;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    width: 100vw;
+    z-index: 2;
+    gap: 1.5rem;
+    background: var(--background);
+    height: var(--navbar-height);
+    padding: 0px 1rem;
+    align-items: end;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, .1);
+    animation: fadeIn 0.2s ease-in-out;
+}
+
+.menu__bar {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+}
+
+.navigation {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    gap: 1rem;
+    background: var(--background);
+    padding-right: 15px;
+}
+
+.navigation>li {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+    min-height: 2.25rem;
+}
+
+.navigation>li>a {
+    color: var(--link-gray);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navigation>li>a:hover {
+    color: var(--link-gray-hover);
+}
+
+.navigation>li>button {
+    color: var(--link-gray);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    margin-right: -0.25rem;
+    align-items: center;
+    min-height: 2.25rem;
+    font-size: 14px;
+    gap: 0.25rem;
+    font-family: 'Open Sans', sans-serif;
+    flex-wrap: nowrap;
+    border-radius: 10rem;
+    padding: 0.25rem 0.6125rem;
+    white-space: nowrap;
+    background: none;
+    display: flex;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+
+.navigation>li>button>svg {
+    margin-top: 2px;
+    fill: var(--link-gray);
+    transition: all 0.2s ease-in-out;
+}
+
+
+.navigation>li:hover>button svg {
+    fill: var(--link-gray-hover);
+    rotate: 180deg;
+}
+
+.navigation>li:hover>button {
+    color: var(--link-gray-hover);
+    background: var(--gray);
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.99) 
+        translateY(-0.7em);
+        transform-origin: top;
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.dropdown__wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 3.75rem;
+}
+
+.dropdown {
+    border-radius: 0.5rem;
+    background: var(--white);
+    padding: 0.5rem;
+    width: 100%;
+    display: none;
+    max-width: 36rem;
+    border: 1px solid var(--gray-border);
+    box-shadow:
+        0 50px 100px -20px rgba(0, 0, 0, .12),
+        0 30px 60px -30px rgba(0, 0, 0, .15);
+    z-index: 2;
+    animation: fadeIn 0.2s ease-in-out;
+}
+
+.list-items-with-description {
+    list-style-type: none;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.list-items-with-description li {
+    display: flex;
+    padding: 0.5rem;
+    gap: 1rem;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+    border-radius: 0.375rem;
+}
+
+.list-items-with-description li:hover {
+    background: var(--secondary-background);
+}
+
+.list-items-with-description li:hover p{
+    color: #000;
+}
+
+.list-items-with-description li svg {
+    stroke: var(--link-gray-hover);
+    stroke-width: 1px;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.item-title h3 {
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: var(--link-gray-hover);
+}
+
+.item-title p {
+    font-size: 0.6rem;
+    white-space: nowrap;
+    color: var(--link-gray);
+}
+
+.action-buttons {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.action-buttons a {
+    text-decoration: none;
+    font-size: 0.875rem;
+    white-space: nowrap;
+    padding: 0.25rem 0.5rem;
+    transition: all 0.2s ease-in-out;
+    line-height: 1.25rem;
+}
+
+.secondary {
+    background: none;
+    color: var(--link-gray-hover);
+    outline: none;
+    border: 1px solid var(--gray-border);
+    border-radius: 0.375rem;
+}
+
+.secondary:hover {
+    background: var(--secondary-background);
+}
+
+.primary {
+    color: var(--white);
+    border-radius: 0.375rem;
+    background: var(--primary);
+    padding: 0.5rem 1rem;
+}
+
+.primary:hover {
+    background: var(--primary-hover);
+}
+
+@media (max-width: 760px) {
+    .hide {
+        position: relative; /* Fix the element position */
+        left: 0; /* Start from the left edge */
+        width: 100%; /* Cover the entire viewport width */
+        margin-left: -20px;
+        height: auto; /* Cover the entire viewport height */
+        background-color: #000000;
+        z-index: 999; /* Ensure it appears on top */
+        padding: 1rem;
+        overflow-y: auto; /* Allow vertical scrolling if needed */
+    }
+    .navigation {
+        padding-right: 15px;
+    }
+
+    .hide ul {
+        gap: 10px;
+        padding: 0;
+        list-style: none;
+        width: 75%;
+        margin: 0;
+    }
+
+    .hide ul li {
+        margin: 5px 0; /* Add margin to separate items vertically */
+        width: 100%;
+        position: relative;
+    }
+    .item-title p{
+        display: none;
+    }
+    .item-title{
+        color: #E6E6E6;
+    }
+}
+
+
+@media (max-width: 760px) {
+    .dropdown__wrapper {
+        position: fixed; /* Fix the dropdown position */
+        top: 12rem; /* Adjust top position to align with hide menu */
+        left: 0;
+        width: 100%; /* Fit to the width of the viewport */
+        padding-top: 0; /* Remove top padding */
+        z-index: 998; /* Ensure it appears below hide menu */
+    }
+
+    .dropdown {
+        border-radius: 0.5rem;
+        background: var(--white);
+        display: none;
+        padding: 0.5rem;
+        width: 100%;
+        max-width: 36rem;
+        border: 1px solid var(--gray-border);
+        box-shadow:
+            0 50px 100px -20px rgba(0, 0, 0, .12),
+            0 30px 60px -30px rgba(0, 0, 0, .15);
+        z-index: 999; /* Ensure it appears on top of page content */
+        animation: fadeIn 0.2s ease-in-out;
+    }
+
+    .hide.open .dropdown {
+        display: block; /* Display dropdown when .hide menu is open */
+    }
+}
+
+.dropdown.open {
+    display: block;
+}
+
+.blackText{
+    color:#000000;
+}
+

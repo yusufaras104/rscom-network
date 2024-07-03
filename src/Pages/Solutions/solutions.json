@@ -1,0 +1,30 @@
+{
+  "solutions": [
+    {
+      "company": "ABC Corp",
+      "products": [
+        {
+          "name": "ABC Product 1",
+          "description": "This is the description of ABC Product 1."
+        },
+        {
+          "name": "ABC Product 2",
+          "description": "This is the description of ABC Product 2."
+        }
+      ]
+    },
+    {
+      "company": "XYZ Inc",
+      "products": [
+        {
+          "name": "XYZ Product 1",
+          "description": "This is the description of XYZ Product 1."
+        },
+        {
+          "name": "XYZ Product 2",
+          "description": "This is the description of XYZ Product 2."
+        }
+      ]
+    }
+  ]
+}

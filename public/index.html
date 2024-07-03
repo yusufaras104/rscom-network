@@ -7,37 +7,133 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="RScomnetwork is a leading provider of customer-centric network physical infrastructure solutions, specializing in fiber, copper, and rack systems. Serving various sectors including Data Centers, Enterprise Networks, Transportation Networks, Broadcast, CATV, Telecom, and FTTx. Our expert team with over a decade of industry experience is dedicated to delivering professional knowledge tailored to meet market needs. Based in London, RScomnetwork develops superior products and solutions in close collaboration with customers, ensuring compliance with legal and regulatory standards. Our structured cabling and modular racking systems offer fully integrated or adaptable solutions, helping clients improve cost structures and asset utilization. Partner with RScomnetwork to reduce Total Cost of Ownership (TCO) and achieve a better return on investment (ROI)."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta charset="utf-8" />
+    <title>
+      RScomnetwork - Leading Provider of Network Infrastructure Solutions
+    </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="network infrastructure, fiber solutions, copper solutions, rack systems, Data Centers, Enterprise Networks, Transportation Networks, Broadcast, CATV, Telecom, FTTx, London, professional knowledge, structured cabling, modular racking systems, compliance, cost optimization, asset utilization, Total Cost of Ownership, ROI"
+      name="keywords"
+    />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </link><base href="/" /> <!-- for local host -->
+  <style>
+    .termly-display-preferences {
+        position: fixed;
+        top: 35px;
+        right: 20px;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+        color: black; /* Sarı ile turuncunun karışımı bir renk */
+        text-decoration: none;
+    }
+</style>
+
   </head>
   <body>
+    
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <a href="#" class="termly-display-preferences"><i class="bi bi-shield-fill-check"></i></a>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/Flip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/Observer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/Draggable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/EaselPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/PixiPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/TextPlugin.min.js"></script>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <!-- RoughEase, ExpoScaleEase and SlowMo are all included in the EasePack file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/EasePack.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/CustomEase.min.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://unpkg.com/counter-up@2.0.0/dist/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="http://localhost:8097"></script>
+    <script src="http://192.168.0.85:8097"></script>
+    <script
+  type="text/javascript"
+  src="https://app.termly.io/resource-blocker/f69e8242-1629-4a28-8286-ebe782e688ff?autoBlock=on"
+></script>
+<script type="text/javascript">
+  (function() {
+      // Create and append the chat-bot element
+      var chatBotEl = document.createElement('chat-bot');
+      chatBotEl.setAttribute('platform_id', '514f903c-9889-40bd-a67e-1be69303fab7');
+      chatBotEl.setAttribute('user_id', '65eceb42-f510-45b1-a082-d866af5a41c2');
+      chatBotEl.setAttribute('chatbot_id', 'b9d4dac5-4776-4439-80b2-5e2866e11f41');
+      
+      var chatbotLink = document.createElement('a');
+      chatbotLink.href = 'https://www.chatsimple.ai/?utm_source=widget&utm_medium=referral';
+      chatbotLink.innerHTML = 'chatsimple';
+      chatBotEl.appendChild(chatbotLink);
+      
+      document.body.appendChild(chatBotEl);
+
+      // Dynamically load the external script
+      var cs = document.createElement('script');
+      cs.src = 'https://chatsimple-widget.s3.us-east-2.amazonaws.com/chat-bot-loader.js';
+      document.body.appendChild(cs);
+  })();
+
+  
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W8EDLT8GX6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W8EDLT8GX6');
+</script>
   </body>
 </html>
